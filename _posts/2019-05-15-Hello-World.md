@@ -14,3 +14,21 @@ tags:                               #标签
 >这是我的第一篇博客。
 
 进入你的博客主页，新的文章将会出现在你的主页上.
+
+{% highlight golang %}
+package main
+
+import "fmt"
+
+func hello_word() {
+    fmt.Print("Hello World!")
+}
+{% endhighlight %}
+
+$$a = \frac{1}{2}$$
+
+\begin{equation}
+b = 1
+\end{equation}
+
+This is an inline formula $c = a + b$
